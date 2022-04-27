@@ -35,7 +35,13 @@ def page_not_found(e):
 def create_app():
     """Create and configure an instance of the Flask application."""
     app = Flask(__name__)
-    app.secret_key = 'This is an INSECURE secret!! DO NOT use this in production!!'
+
+    if os.environ.get("FLASK_ENV") == "production":
+        app.config.from_object("app.config.ProductionConfig")
+    elif os.environ.get("FLASK_ENV") == "development":
+        app.config.from_object("app.config.DevelopmentConfig")
+    elif os.environ.get("FLASK_ENV") == "testing":
+        app.config.from_object("app.config.TestingConfig")
 
     # Initialize Flask-BabelEx
     babel = Babel(app)
