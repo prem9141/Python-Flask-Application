@@ -33,10 +33,9 @@
                     <div class="navbar-nav mr-auto">
                         {% if current_user.is_authenticated %}
                             {{ render_nav_item('auth.dashboard','Dashboard' ) }}
-                            {{ render_nav_item('auth.browse_users','User Management' ) }}
-
+                            {{ render_nav_item('auth.browse_users','Upload Songs' ) }}
                         {% else %}
-                            {{ render_nav_item('simple_pages.index', 'Index') }}
+                            {{ render_nav_item('simple_pages.index', 'Home') }}
                         {% endif %}
 
                         {{ render_nav_item('simple_pages.about','About') }}
@@ -45,8 +44,23 @@
                 </div>
                 <div class="navbar-nav d-flex">
                     {% if current_user.is_authenticated %}
-                        {{ render_nav_item('auth.logout','Logout' ) }}
-                        {{ render_nav_item('auth.edit_profile','My Profile' ) }}
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                My Account
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="{{ url_for("auth.edit_profile") }}">Manage
+                                    Profile</a></li>
+                                <li><a class="dropdown-item" href="{{ url_for("auth.edit_account") }}">Manage
+                                    Account</a></li>
+                                {% if current_user.is_admin %}
+                                    <li><a class="dropdown-item" href="{{ url_for("auth.browse_users") }}">Manage User</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for("songs.songs_browse") }}">Browse Songs</a></li>
+                                {% endif %}
+                                <li><a class="dropdown-item" href="{{ url_for("auth.logout") }}">Logout</a></li>
+                            </ul>
+                        </li>
                     {% else %}
                         {{ render_nav_item('auth.register','Register' ) }}
                         {{ render_nav_item('auth.login','Login' ) }}
