@@ -10,4 +10,5 @@ database
 .env
 uploads
 logs
+.DS_Store
 

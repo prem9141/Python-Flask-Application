@@ -18,7 +18,6 @@ def login():
     if current_user.is_authenticated:
         return redirect(url_for('auth.dashboard'))
     if form.validate_on_submit():
-        print(request.form)
         user = User.query.filter_by(email=form.email.data).first()
         if user is None or not user.check_password(form.password.data):
             flash('Invalid username or password', 'error')
@@ -54,6 +53,7 @@ def register():
             flash('Already Registered', 'info')
             return redirect(url_for('auth.login'), 302)
     return render_template('register.html', form=form)
+
 
 @auth.route('/dashboard', methods=['GET'], defaults ={"page": 1})
 @auth.route('/dashboard/<int:page>', methods=['GET'])
@@ -171,6 +171,7 @@ def edit_profile():
         flash('You Successfully Updated your Profile', 'success')
         return redirect(url_for('auth.dashboard'))
     return render_template('profile_edit.html', form=form)
+
 
 @auth.route('/account', methods=['POST', 'GET'])
 @login_required
