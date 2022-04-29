@@ -73,3 +73,30 @@ def test_request_register_already(client):
         assert db.session.query(User).count() == 1
         assert b"Already Registered" in response.data
 
+
+def test_request_dashboard(client):
+    """This makes the user dashboard page"""
+    with client:
+        email = 'prem@test.com'
+        password = 'prem@1234'
+        user = User(email, generate_password_hash(password))
+        db.session.add(user)
+        db.session.commit()
+        assert db.session.query(User).count() == 1
+        client.post('/login', data={"email": email, "password": password})
+        response = client.get('/dashboard')
+        assert response.status_code == 200
+        assert b"Welcome" in response.data
+        assert current_user.email == 'prem@test.com'
+
+
+def test_request_dashboard_deny(client):
+    """This makes the user dashboard page deny access"""
+    with client:
+        response = client.get('/dashboard')
+        assert current_user.is_anonymous
+        assert response.status_code == 302
+        assert "/login" in response.location
+
+
+
