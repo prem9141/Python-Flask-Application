@@ -1,23 +1,30 @@
-"""This test the homepage"""
+"""This test the Login, Registration and Dashboard"""
 
-def test_request_main_menu_links(client):
-    """This makes the index page"""
-    response = client.get("/")
-    assert response.status_code == 200
-    assert b'href="/login"' in response.data
-    assert b'href="/register"' in response.data
-    assert b'href="/about"' in response.data
-    assert b'href="/welcome"' in response.data
+from app import db
+from app.db.models import User, Song
+from werkzeug.security import generate_password_hash
 
-def test_auth_pages(client):
-    """This makes the index page"""
-    response = client.get("/dashboard")
-    assert response.status_code == 302
-    response = client.get("/register")
-    assert response.status_code == 200
-    response = client.get("/login")
-    assert response.status_code == 200
-    response = client.get("/about")
-    assert response.status_code == 200
-    response = client.get("/welcome")
-    assert response.status_code == 200
+
+def test_request_login(client):
+    """This makes the valid login page"""
+    with client:
+        email = 'prem@test.com'
+        password = 'prem@1234'
+        user = User(email, generate_password_hash(password))
+        db.session.add(user)
+        db.session.commit()
+        assert db.session.query(User).count() == 1
+        client.post('/login', data={"email": email, "password": password})
+        response = client.get('/dashboard')
+        assert response.status_code == 200
+
+
+def test_request_login_fail_user(client):
+    """This makes the invalid login user page"""
+    with client:
+        assert db.session.query(User).count() == 0
+        email = 'prem@test.com'
+        password = 'prem@1234'
+        client.post('/login', data={"email": email, "password": password})
+        response = client.get('/dashboard')
+        assert response.status_code == 302
