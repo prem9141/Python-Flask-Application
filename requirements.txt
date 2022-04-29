@@ -3,7 +3,7 @@ attrs==21.4.0
 bcrypt==3.2.0
 Bootstrap-Flask==2.0.2
 cffi==1.15.0
-click==8.1.2
+click==8.0.4
 coverage==6.3.2
 dill==0.3.4
 dnspython==2.2.1
