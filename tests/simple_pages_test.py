@@ -16,31 +16,36 @@ def test_request_index(client):
     assert response.status_code == 200
     assert b"Index" in response.data
 
+
 def test_request_about(client):
-    """This makes the index page"""
+    """This makes the About page"""
     response = client.get("/about")
     assert response.status_code == 200
     assert b"About" in response.data
 
+
 def test_request_welcome(client):
-    """This makes the index page"""
+    """This makes the Welcome page"""
     response = client.get("/welcome")
     assert response.status_code == 200
     assert b"Welcome" in response.data
 
+
 def test_request_login(client):
-    """This makes the index page"""
+    """This makes the Login page"""
     response = client.get("/login")
     assert response.status_code == 200
     assert b"Login" in response.data
 
-def test_request_welcome(client):
-    """This makes the index page"""
+
+def test_request_register(client):
+    """This makes the Register page"""
     response = client.get("/register")
     assert response.status_code == 200
     assert b"Register" in response.data
 
+
 def test_request_page_not_found(client):
-    """This makes the index page"""
+    """This makes a random page"""
     response = client.get("/page5")
     assert response.status_code == 404
