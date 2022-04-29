@@ -11,7 +11,7 @@
             {{ bootstrap.load_css() }}
         {% endblock %}
 
-        <title>My Site - {% block title %}{% endblock %}</title>
+        <title>Song Playlist - {% block title %}{% endblock %}</title>
     {% endblock %}
 </head>
 <body>
@@ -33,7 +33,7 @@
                     <div class="navbar-nav mr-auto">
                         {% if current_user.is_authenticated %}
                             {{ render_nav_item('auth.dashboard','Dashboard' ) }}
-                            {{ render_nav_item('auth.browse_users','Upload Songs' ) }}
+                            {{ render_nav_item('songs.songs_upload','Upload Songs' ) }}
                         {% else %}
                             {{ render_nav_item('simple_pages.index', 'Home') }}
                         {% endif %}
@@ -85,7 +85,7 @@
     {{ bootstrap.load_js() }}
 {% endblock %}
 <footer class="text-center mt-5">
-    Environment: {{ deployment_environment }} - Copyright: {{ year }} {{ format_price(100) }}
+    Environment: {{ deployment_environment }} - Copyright: {{ year }} }}
 </footer>
 </body>
 </html>

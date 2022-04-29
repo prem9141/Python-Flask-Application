@@ -1,5 +1,6 @@
 from flask import Blueprint, render_template, request, redirect, url_for, flash, current_app
 from flask_login import login_user, login_required, logout_user, current_user
+from flask_sqlalchemy import Pagination
 
 from werkzeug.security import generate_password_hash
 
@@ -53,11 +54,23 @@ def register():
             return redirect(url_for('auth.login'), 302)
     return render_template('register.html', form=form)
 
-
-@auth.route('/dashboard')
+@auth.route('/dashboard', methods=['GET'], defaults ={"page": 1})
+@auth.route('/dashboard/<int:page>', methods=['GET'])
 @login_required
-def dashboard():
-    return render_template('dashboard.html')
+def dashboard(page):
+
+    songs = current_user.songs
+
+    page = page
+    per_page = 10
+    pagination = Pagination(None, page, per_page, len(songs), None)
+
+    start = (page - 1) * per_page
+    end = start + per_page
+    data = songs[start:end]
+
+    titles = [('title', 'Title'), ('artist', 'Artist'), ('genre', 'Genre'), ('year', 'Year')]
+    return render_template('dashboard.html', data=data, titles=titles, pagination=pagination)
 
 
 @auth.route("/logout")

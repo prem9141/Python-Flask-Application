@@ -12,19 +12,12 @@ from app.auth import auth
 from app.exceptions import http_exceptions
 from app.db.models import User
 from app.db import db, database
+from app.songs import songs
 from app.auth import auth
 from app.cli import create_database
-from flask_login import (
-    UserMixin,
-    login_user,
-    LoginManager,
-    current_user,
-    logout_user,
-    login_required,
-)
 from flask_cors import CORS
 
-login_manager = LoginManager()
+login_manager = flask_login.LoginManager()
 
 
 def page_not_found(e):
@@ -32,6 +25,7 @@ def page_not_found(e):
 
 
 def create_app():
+
     """Create and configure an instance of the Flask application."""
     app = Flask(__name__)
 
@@ -50,6 +44,7 @@ def create_app():
     app.register_blueprint(simple_pages)
     app.register_blueprint(auth)
     app.register_blueprint(database)
+    app.register_blueprint(songs)
 
     app.context_processor(utility_text_processors)
 
