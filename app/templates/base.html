@@ -56,7 +56,7 @@
                                     Account</a></li>
                                 {% if current_user.is_admin %}
                                     <li><a class="dropdown-item" href="{{ url_for("auth.browse_users") }}">Manage User</a></li>
-                                    <li><a class="dropdown-item" href="{{ url_for("auth.browse_users") }}">Browse Songs</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for("songs.songs_browse") }}">Browse Songs</a></li>
                                 {% endif %}
                                 <li><a class="dropdown-item" href="{{ url_for("auth.logout") }}">Logout</a></li>
                             </ul>
@@ -85,7 +85,7 @@
     {{ bootstrap.load_js() }}
 {% endblock %}
 <footer class="text-center mt-5">
-    Environment: {{ deployment_environment }} - Copyright: {{ year }} }}
+    Environment: {{ deployment_environment }} - Copyright: {{ year }}
 </footer>
 </body>
 </html>
