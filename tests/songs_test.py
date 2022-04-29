@@ -31,3 +31,26 @@ def test_request_songs_upload_deny(client):
         assert "/login" in response.location
 
 
+def test_request_csv_process(client):
+    """This makes the songs upload page"""
+    with client:
+        email = 'prem@test.com'
+        password = 'prem@1234'
+        user = User(email, generate_password_hash(password))
+        db.session.add(user)
+        db.session.commit()
+        client.post('/login', data={"email": email, "password": password})
+
+        csv_file = 'tests/pytest_songs.csv'
+        data = {
+            'file': (open(csv_file, 'rb'), csv_file)
+        }
+
+        client.post('/songs/upload', data=data)
+        assert db.session.query(Song).count() == 2
+
+        response = client.get('/dashboard')
+        assert b'Sugar (feat. Francesco Yates)' in response.data
+        assert b'Down' in response.data
+
+
