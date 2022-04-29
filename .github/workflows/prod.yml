@@ -1,4 +1,4 @@
-name: Production Workflow 1
+name: Production Workflow
 
 on:
   push:
@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Python 3.6
+      - name: Set up Python 3.8
         uses: actions/setup-python@v1
         with:
-          python-version: 3.6
+          python-version: 3.8
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: kaw393939/flaskbase
+          images: pm42/song-upload
 
       - name: Build and push
         uses: docker/build-push-action@v2
@@ -55,6 +55,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "kwilliam-prod" #Must be unique in Heroku
-          heroku_email: "keith@webizly.com"
+          heroku_app_name: "pm42-song-prd"
+          heroku_email: "pm42@njit.edu"
           usedocker: true
