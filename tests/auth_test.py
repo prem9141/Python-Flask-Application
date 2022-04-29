@@ -6,6 +6,8 @@ def test_request_main_menu_links(client):
     assert response.status_code == 200
     assert b'href="/login"' in response.data
     assert b'href="/register"' in response.data
+    assert b'href="/about"' in response.data
+    assert b'href="/welcome"' in response.data
 
 def test_auth_pages(client):
     """This makes the index page"""
@@ -14,4 +16,8 @@ def test_auth_pages(client):
     response = client.get("/register")
     assert response.status_code == 200
     response = client.get("/login")
+    assert response.status_code == 200
+    response = client.get("/about")
+    assert response.status_code == 200
+    response = client.get("/welcome")
     assert response.status_code == 200
