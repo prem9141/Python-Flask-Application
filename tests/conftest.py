@@ -3,15 +3,14 @@
 
 import pytest
 from app import create_app
+import os
 
 
 @pytest.fixture()
 def application():
     """This makes the app"""
+    os.environ['FLASK_ENV'] = 'testing'
     application = create_app()
-    application.config.update({
-        "TESTING": True,
-    })
     yield application
 
 
