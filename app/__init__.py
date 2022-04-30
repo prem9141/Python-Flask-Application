@@ -5,7 +5,9 @@ from flask_bootstrap import Bootstrap5
 from flask_wtf.csrf import CSRFProtect
 
 import os
-from flask import Flask
+import logging
+from logging.handlers import RotatingFileHandler
+
 from app.context_processors import utility_text_processors
 from app.simple_pages import simple_pages
 from app.auth import auth
@@ -16,6 +18,7 @@ from app.songs import songs
 from app.auth import auth
 from app.cli import create_database
 from flask_cors import CORS
+from app.logging_config import log_con, LOGGING_CONFIG
 
 login_manager = flask_login.LoginManager()
 
@@ -44,8 +47,9 @@ def create_app():
     app.register_blueprint(simple_pages)
     app.register_blueprint(auth)
     app.register_blueprint(database)
-    app.register_blueprint(songs)
 
+    app.register_blueprint(songs)
+    app.register_blueprint(log_con)
     app.context_processor(utility_text_processors)
 
     app.cli.add_command(create_database)
