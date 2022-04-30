@@ -1,5 +1,6 @@
 import csv
 import os
+import logging
 
 from flask import Blueprint, render_template, abort, url_for,current_app
 from flask_login import current_user, login_required
@@ -13,7 +14,7 @@ from werkzeug.utils import secure_filename, redirect
 
 songs = Blueprint('songs', __name__,
                         template_folder='templates')
-
+mysong = logging.getLogger("mySong")
 
 @songs.route('/songs', methods=['GET'], defaults={"page": 1})
 @songs.route('/songs/<int:page>', methods=['GET'])
@@ -36,6 +37,7 @@ def songs_browse(page):
 def songs_upload():
     form = csv_upload()
     if form.validate_on_submit():
+
         filename = secure_filename(form.file.data.filename)
         filepath = os.path.join(current_app.config['UPLOAD_FOLDER'], filename)
         form.file.data.save(filepath)
@@ -50,7 +52,7 @@ def songs_upload():
                 else:
                     current_user.songs.append(song)
                     db.session.commit()
-
+        mysong.info(f'CSV uploaded by user {current_user.email}')
         return redirect(url_for('auth.dashboard'))
 
     try:
