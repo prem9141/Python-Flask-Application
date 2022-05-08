@@ -11,7 +11,7 @@
             {{ bootstrap.load_css() }}
         {% endblock %}
 
-        <title>Song Playlist - {% block title %}{% endblock %}</title>
+        <title>Transactions - {% block title %}{% endblock %}</title>
     {% endblock %}
 </head>
 <body>
@@ -33,7 +33,7 @@
                     <div class="navbar-nav mr-auto">
                         {% if current_user.is_authenticated %}
                             {{ render_nav_item('auth.dashboard','Dashboard' ) }}
-                            {{ render_nav_item('songs.songs_upload','Upload Songs' ) }}
+                            {{ render_nav_item('transactions.transactions_upload','Upload Transactions' ) }}
                         {% else %}
                             {{ render_nav_item('simple_pages.index', 'Home') }}
                         {% endif %}
@@ -56,7 +56,7 @@
                                     Account</a></li>
                                 {% if current_user.is_admin %}
                                     <li><a class="dropdown-item" href="{{ url_for("auth.browse_users") }}">Manage User</a></li>
-                                    <li><a class="dropdown-item" href="{{ url_for("songs.songs_browse") }}">Browse Songs</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for("transactions.transactions_browse") }}">Browse Transactions</a></li>
                                 {% endif %}
                                 <li><a class="dropdown-item" href="{{ url_for("auth.logout") }}">Logout</a></li>
                             </ul>

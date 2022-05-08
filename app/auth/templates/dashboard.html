@@ -6,14 +6,13 @@
     {% block title %}Welcome: {{ current_user.email }}{% endblock %}
     {% block content %}
         <h2>Welcome: {{ current_user.email }}</h2>
+        <h3>Current Balance: {{ balance }}</h3>
         {% if data|length > 0 %}
             {{ render_table(data, titles) }}
 
             {% from 'bootstrap5/pagination.html' import render_pagination %}
 
             {{ render_pagination(pagination) }}
-        {% else %}
-            <h3>You have no songs in your playlist</h3>
         {% endif %}
 
     {% endblock %}

@@ -14,7 +14,7 @@ from app.auth import auth
 from app.exceptions import http_exceptions
 from app.db.models import User
 from app.db import db, database
-from app.songs import songs
+from app.transactions import transactions
 from app.auth import auth
 from app.cli import create_database
 from flask_cors import CORS
@@ -48,7 +48,7 @@ def create_app():
     app.register_blueprint(auth)
     app.register_blueprint(database)
 
-    app.register_blueprint(songs)
+    app.register_blueprint(transactions)
     app.register_blueprint(log_con)
     app.context_processor(utility_text_processors)
 
