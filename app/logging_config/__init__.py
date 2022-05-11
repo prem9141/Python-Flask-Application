@@ -65,47 +65,47 @@ LOGGING_CONFIG = {
         'file.handler': {
             'class': 'logging.handlers.RotatingFileHandler',
             'formatter': 'standard',
-            'filename': os.path.join(config.Config.LOG_DIR,'handler.log'),
+            'filename': os.path.join(config.Config.LOG_DIR, 'handler.log'),
             'maxBytes': 10000000,
             'backupCount': 5,
         },
         'file.handler.myapp': {
             'class': 'logging.handlers.RotatingFileHandler',
             'formatter': 'standard',
-            'filename': os.path.join(config.Config.LOG_DIR,'myapp.log'),
+            'filename': os.path.join(config.Config.LOG_DIR, 'myapp.log'),
             'maxBytes': 10000000,
             'backupCount': 5,
         },
         'file.handler.sqlalchemy': {
             'class': 'logging.handlers.RotatingFileHandler',
             'formatter': 'standard',
-            'filename': os.path.join(config.Config.LOG_DIR,'sqlalchemy.log'),
+            'filename': os.path.join(config.Config.LOG_DIR, 'sqlalchemy.log'),
             'maxBytes': 10000000,
             'backupCount': 5,
         },
         'file.handler.werkzeug': {
             'class': 'logging.handlers.RotatingFileHandler',
             'formatter': 'werkzeug_standard',
-            'filename': os.path.join(config.Config.LOG_DIR,'werkzeug.log'),
+            'filename': os.path.join(config.Config.LOG_DIR, 'werkzeug.log'),
             'maxBytes': 10000000,
             'backupCount': 5,
         },
-        'file.handler.song': {
+        'file.handler.transaction': {
             'class': 'logging.handlers.RotatingFileHandler',
             'formatter': 'standard',
-            'filename': os.path.join(config.Config.LOG_DIR,'song_upload.log'),
+            'filename': os.path.join(config.Config.LOG_DIR, 'transaction_upload.log'),
             'maxBytes': 10000000,
             'backupCount': 5,
         },
     },
     'loggers': {
         '': {  # root logger
-            'handlers': ['default','file.handler'],
+            'handlers': ['default', 'file.handler'],
             'level': 'DEBUG',
             'propagate': True
         },
         '__main__': {  # if __name__ == '__main__'
-            'handlers': ['default','file.handler'],
+            'handlers': ['default', 'file.handler'],
             'level': 'DEBUG',
             'propagate': True
         },
@@ -124,8 +124,8 @@ LOGGING_CONFIG = {
             'level': 'DEBUG',
             'propagate': False
         },
-        'mySong': {  # if __name__ == '__main__'
-            'handlers': ['file.handler.song'],
+        'myTransaction': {  # if __name__ == '__main__'
+            'handlers': ['file.handler.transaction'],
             'level': 'DEBUG',
             'propagate': False
         }

@@ -1,12 +1,13 @@
 from flask import Blueprint, render_template, request, redirect, url_for, flash, current_app
 from flask_login import login_user, login_required, logout_user, current_user
 from flask_sqlalchemy import Pagination
+from sqlalchemy import func
 
 from werkzeug.security import generate_password_hash
 
 from app.auth.forms import login_form, register_form, profile_edit_form, user_edit_form, password_update_form
 from app.db import db
-from app.db.models import User
+from app.db.models import User, Transaction
 from app.auth.decorators import admin_required
 
 auth = Blueprint('auth', __name__, template_folder='templates')
@@ -55,23 +56,37 @@ def register():
     return render_template('register.html', form=form)
 
 
-@auth.route('/dashboard', methods=['GET'], defaults ={"page": 1})
+@auth.route('/dashboard', methods=['GET'], defaults={"page": 1})
 @auth.route('/dashboard/<int:page>', methods=['GET'])
 @login_required
 def dashboard(page):
 
-    songs = current_user.songs
+    debit = Transaction.query.with_entities(func.sum(Transaction.amount)).filter(Transaction.user_id == current_user.id,
+                                                                                 Transaction.ttype == 'DEBIT').scalar()
+    credit = Transaction.query.with_entities(func.sum(Transaction.amount)).filter(
+        Transaction.user_id == current_user.id,
+        Transaction.ttype == 'CREDIT').scalar()
+
+    if debit is None:
+        debit = 0
+    if credit is None:
+        credit = 0
+
+    current_balance = credit - debit
+
+    transactions = current_user.transactions
 
     page = page
     per_page = 10
-    pagination = Pagination(None, page, per_page, len(songs), None)
+    pagination = Pagination(None, page, per_page, len(transactions), None)
 
     start = (page - 1) * per_page
     end = start + per_page
-    data = songs[start:end]
+    data = transactions[start:end]
 
-    titles = [('title', 'Title'), ('artist', 'Artist'), ('genre', 'Genre'), ('year', 'Year')]
-    return render_template('dashboard.html', data=data, titles=titles, pagination=pagination)
+    titles = [('tdate', 'Transaction Upload DateTime'), ('ttype', 'Transaction Type'), ('amount', 'Amount')]
+    return render_template('dashboard.html', data=data, titles=titles, pagination=pagination,
+                           balance=f"${current_balance:04.2f}")
 
 
 @auth.route("/logout")
@@ -180,7 +195,7 @@ def edit_account():
     form = password_update_form(obj=user)
     if form.validate_on_submit():
         user.email = form.email.data
-        user.password = form.password.data
+        user.password = generate_password_hash(form.password.data)
         db.session.add(current_user)
         db.session.commit()
         flash('You Successfully Updated your Password or Email', 'success')

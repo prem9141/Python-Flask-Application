@@ -1,20 +1,25 @@
 {% extends "base.html" %}
 {% from 'bootstrap5/table.html' import render_table %}
 {% from "bootstrap5/pagination.html" import render_pagination %}
-
+{% block title %}Welcome: {{ current_user.email }}{% endblock %}
 <div class="row col-8">
-    {% block title %}Welcome: {{ current_user.email }}{% endblock %}
     {% block content %}
-        <h2>Welcome: {{ current_user.email }}</h2>
-        {% if data|length > 0 %}
-            {{ render_table(data, titles) }}
+    <div class="card text-dark bg-light mb-3">
+        <div class="card-header">Welcome: {{ current_user.email }}</div>
+        <div class="card-body">
+            <h5 class="card-title">Current Balance: {{ balance }}</h5>
 
-            {% from 'bootstrap5/pagination.html' import render_pagination %}
+        </div>
+    </div>
 
-            {{ render_pagination(pagination) }}
-        {% else %}
-            <h3>You have no songs in your playlist</h3>
-        {% endif %}
+
+    {% if data|length > 0 %}
+    {{ render_table(data, titles) }}
+
+    {% from 'bootstrap5/pagination.html' import render_pagination %}
+
+    {{ render_pagination(pagination) }}
+    {% endif %}
 
     {% endblock %}
 </div>

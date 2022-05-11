@@ -24,6 +24,7 @@ jobs:
         run: pytest -vv
 
   build-container:
+    needs: runtest
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -39,7 +40,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: pm42/song-upload
+          images: pm42/bank-upload
 
       - name: Build and push
         uses: docker/build-push-action@v2
@@ -49,12 +50,13 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
   deploy:
+    needs: build-container
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "pm42-song-prd"
+          heroku_app_name: "pm42-bank-prd"
           heroku_email: "pm42@njit.edu"
           usedocker: true
