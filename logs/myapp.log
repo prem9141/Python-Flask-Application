@@ -1,0 +1,895 @@
+GET [INFO] http://localhost/register: 2022-05-08 18:58:53,184 172.19.0.1 /register Logging Request 
+GET [INFO] http://localhost/register: 2022-05-08 18:58:53,248 172.19.0.1 /register Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-08 18:59:02,928 172.19.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-08 18:59:03,092 172.19.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-08 18:59:03,104 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-08 18:59:03,111 172.19.0.1 /login Response Status Code: 200 
+GET [INFO] http://localhost/register: 2022-05-08 18:59:04,894 172.19.0.1 /register Logging Request 
+GET [INFO] http://localhost/register: 2022-05-08 18:59:04,903 172.19.0.1 /register Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-08 18:59:15,134 172.19.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-08 18:59:15,276 172.19.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-08 18:59:15,290 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-08 18:59:15,292 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-08 18:59:25,842 172.19.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-08 18:59:25,981 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-08 18:59:25,996 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-08 18:59:26,051 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-08 18:59:41,071 172.19.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-08 18:59:41,120 172.19.0.1 /transactions/upload Response Status Code: 200 
+POST [INFO] http://localhost/transactions/upload: 2022-05-08 18:59:45,665 172.19.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-08 18:59:46,041 172.19.0.1 /transactions/upload Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-08 18:59:46,053 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-08 18:59:46,073 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-08 19:01:07,915 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-08 19:01:08,025 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-08 19:05:27,612 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-08 19:05:27,725 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-08 19:05:59,324 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-08 19:05:59,439 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/logout: 2022-05-08 19:07:08,131 172.19.0.1 /logout Logging Request 
+GET [INFO] http://localhost/logout: 2022-05-08 19:07:08,207 172.19.0.1 /logout Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-08 19:07:08,217 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-08 19:07:08,222 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-08 19:07:16,170 172.19.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-08 19:07:16,214 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-08 19:07:16,231 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-08 19:07:16,235 172.19.0.1 /login Response Status Code: 200 
+GET [INFO] http://localhost/register: 2022-05-08 19:07:18,027 172.19.0.1 /register Logging Request 
+GET [INFO] http://localhost/register: 2022-05-08 19:07:18,054 172.19.0.1 /register Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-08 19:07:28,669 172.19.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-08 19:07:28,814 172.19.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-08 19:07:28,828 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-08 19:07:28,830 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-08 19:07:43,519 172.19.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-08 19:07:43,648 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-08 19:07:43,660 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-08 19:07:43,685 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-08 19:07:47,918 172.19.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-08 19:07:47,961 172.19.0.1 /transactions/upload Response Status Code: 200 
+POST [INFO] http://localhost/transactions/upload: 2022-05-08 19:07:52,602 172.19.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-08 19:07:53,655 172.19.0.1 /transactions/upload Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-08 19:07:53,668 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-08 19:07:53,695 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-08 19:10:17,706 172.19.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-08 19:10:17,779 172.19.0.1 /transactions/upload Response Status Code: 200 
+POST [INFO] http://localhost/transactions/upload: 2022-05-08 19:10:22,171 172.19.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-08 19:10:22,549 172.19.0.1 /transactions/upload Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-08 19:10:22,559 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-08 19:10:22,614 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard/2: 2022-05-08 19:10:28,086 172.19.0.1 /dashboard/2 Logging Request 
+GET [INFO] http://localhost/dashboard/2: 2022-05-08 19:10:28,151 172.19.0.1 /dashboard/2 Response Status Code: 200 
+GET [INFO] http://localhost/dashboard/3: 2022-05-08 19:10:31,775 172.19.0.1 /dashboard/3 Logging Request 
+GET [INFO] http://localhost/dashboard/3: 2022-05-08 19:10:31,839 172.19.0.1 /dashboard/3 Response Status Code: 200 
+GET [INFO] http://localhost/dashboard/4: 2022-05-08 19:10:32,836 172.19.0.1 /dashboard/4 Logging Request 
+GET [INFO] http://localhost/dashboard/4: 2022-05-08 19:10:32,899 172.19.0.1 /dashboard/4 Response Status Code: 200 
+GET [INFO] http://localhost/: 2022-05-11 15:12:19,147 172.19.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 15:12:19,218 172.19.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/favicon.ico: 2022-05-11 15:12:19,657 172.19.0.1 /favicon.ico Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 15:12:26,373 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 15:12:26,400 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 15:12:37,453 172.19.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 15:12:37,581 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:12:37,596 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:12:37,657 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/transactions: 2022-05-11 15:12:44,286 172.19.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 15:12:44,359 172.19.0.1 /transactions Response Status Code: 200 
+GET [INFO] http://localhost/transactions/2: 2022-05-11 15:12:50,457 172.19.0.1 /transactions/2 Logging Request 
+GET [INFO] http://localhost/transactions/2: 2022-05-11 15:12:50,517 172.19.0.1 /transactions/2 Response Status Code: 200 
+GET [INFO] http://localhost/transactions/3: 2022-05-11 15:12:52,660 172.19.0.1 /transactions/3 Logging Request 
+GET [INFO] http://localhost/transactions/3: 2022-05-11 15:12:52,719 172.19.0.1 /transactions/3 Response Status Code: 200 
+GET [INFO] http://localhost/about: 2022-05-11 15:13:17,546 172.19.0.1 /about Logging Request 
+GET [INFO] http://localhost/about: 2022-05-11 15:13:17,596 172.19.0.1 /about Response Status Code: 200 
+GET [INFO] http://localhost/welcome: 2022-05-11 15:13:19,216 172.19.0.1 /welcome Logging Request 
+GET [INFO] http://localhost/welcome: 2022-05-11 15:13:19,266 172.19.0.1 /welcome Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 15:13:20,663 172.19.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 15:13:20,721 172.19.0.1 /transactions/upload Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:13:22,536 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:13:22,603 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/logout: 2022-05-11 15:13:26,096 172.19.0.1 /logout Logging Request 
+GET [INFO] http://localhost/logout: 2022-05-11 15:13:26,169 172.19.0.1 /logout Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 15:13:26,181 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 15:13:26,184 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 15:13:35,325 172.19.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 15:13:35,465 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:13:35,479 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:13:35,503 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/about: 2022-05-11 15:13:49,554 172.19.0.1 /about Logging Request 
+GET [INFO] http://localhost/about: 2022-05-11 15:13:49,593 172.19.0.1 /about Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:13:50,689 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:13:50,755 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:21:47,050 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:21:47,117 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:23:32,280 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:23:32,336 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:23:47,893 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:23:47,955 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:24:17,624 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:24:17,694 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 15:24:20,039 172.19.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 15:24:20,077 172.19.0.1 /transactions/upload Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:24:21,017 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:24:21,084 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:24:31,692 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:24:31,815 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:24:33,642 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:24:33,708 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:25:09,877 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:25:09,947 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:25:30,290 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:25:30,362 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:26:12,792 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:26:12,861 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:26:35,449 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:26:35,521 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:26:49,238 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:26:49,309 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:27:11,366 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:27:11,425 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:27:53,554 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:27:53,623 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:28:26,822 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:28:26,888 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/logout: 2022-05-11 15:30:49,373 172.19.0.1 /logout Logging Request 
+GET [INFO] http://localhost/logout: 2022-05-11 15:30:49,446 172.19.0.1 /logout Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 15:30:49,455 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 15:30:49,464 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 15:30:59,142 172.19.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 15:30:59,278 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:30:59,291 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:30:59,315 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 15:31:03,129 172.19.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 15:31:03,184 172.19.0.1 /transactions/upload Response Status Code: 200 
+GET [INFO] http://localhost/transactions: 2022-05-11 15:31:07,336 172.19.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 15:31:07,405 172.19.0.1 /transactions Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:31:36,600 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 15:31:36,666 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/logout: 2022-05-11 15:31:44,655 172.19.0.1 /logout Logging Request 
+GET [INFO] http://localhost/logout: 2022-05-11 15:31:44,727 172.19.0.1 /logout Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 15:31:44,738 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 15:31:44,740 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 15:59:47,741 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 15:59:47,795 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 15:59:47,798 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 15:59:47,865 127.0.0.1 /transactions/upload Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:01:04,815 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:01:04,868 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:01:04,870 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:01:04,932 127.0.0.1 /transactions/upload Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:02:47,133 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:02:47,187 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:02:47,190 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:02:47,250 127.0.0.1 /transactions/upload Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:02:47,323 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:02:47,324 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 16:22:34,839 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:22:34,842 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:22:34,846 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:22:34,848 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 16:25:56,119 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:25:56,172 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:25:56,175 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:25:56,275 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:25:56,351 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:25:56,355 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 16:25:56,356 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:25:56,415 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:25:56,553 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:25:56,603 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 16:25:56,605 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:25:56,663 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-11 16:25:56,743 127.0.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-11 16:25:56,810 127.0.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 16:25:56,813 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:25:56,870 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-11 16:25:57,011 127.0.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-11 16:25:57,015 127.0.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 16:25:57,017 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:25:57,074 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:25:57,213 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:25:57,274 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:25:57,277 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:25:57,370 127.0.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:25:57,449 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:25:57,450 127.0.0.1 /dashboard Response Status Code: 302 
+GET [INFO] http://localhost/: 2022-05-11 16:25:57,733 127.0.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 16:25:57,790 127.0.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/: 2022-05-11 16:25:57,859 127.0.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 16:25:57,915 127.0.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/: 2022-05-11 16:25:58,218 127.0.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 16:25:58,275 127.0.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/: 2022-05-11 16:25:58,344 127.0.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 16:25:58,399 127.0.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/about: 2022-05-11 16:25:58,469 127.0.0.1 /about Logging Request 
+GET [INFO] http://localhost/about: 2022-05-11 16:25:58,526 127.0.0.1 /about Response Status Code: 200 
+GET [INFO] http://localhost/welcome: 2022-05-11 16:25:58,596 127.0.0.1 /welcome Logging Request 
+GET [INFO] http://localhost/welcome: 2022-05-11 16:25:58,656 127.0.0.1 /welcome Response Status Code: 200 
+GET [INFO] http://localhost/login: 2022-05-11 16:25:58,728 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:25:58,783 127.0.0.1 /login Response Status Code: 200 
+GET [INFO] http://localhost/register: 2022-05-11 16:25:58,854 127.0.0.1 /register Logging Request 
+GET [INFO] http://localhost/register: 2022-05-11 16:25:58,913 127.0.0.1 /register Response Status Code: 200 
+GET [INFO] http://localhost/page5: 2022-05-11 16:25:58,982 127.0.0.1 /page5 Logging Request 
+GET [INFO] http://localhost/page5: 2022-05-11 16:25:58,983 127.0.0.1 /page5 Response Status Code: 404 
+POST [INFO] http://localhost/login: 2022-05-11 16:25:59,068 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:25:59,072 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:25:59,074 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:25:59,075 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 16:26:30,999 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:26:31,002 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:26:31,005 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:26:31,006 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 16:27:16,217 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:27:16,274 127.0.0.1 /login Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:27:16,276 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:27:16,278 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 16:31:06,639 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:31:06,694 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:31:06,696 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:31:06,790 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:31:06,872 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:31:06,876 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 16:31:06,878 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:31:06,933 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:31:07,070 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:31:07,118 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 16:31:07,120 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:31:07,179 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-11 16:31:07,260 127.0.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-11 16:31:07,330 127.0.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 16:31:07,332 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:31:07,389 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-11 16:31:07,525 127.0.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-11 16:31:07,530 127.0.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 16:31:07,532 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:31:07,588 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:31:07,724 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:31:07,789 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:31:07,791 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:31:07,887 127.0.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:31:07,959 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:31:07,960 127.0.0.1 /dashboard Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 16:38:38,443 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:38:38,496 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:38:38,499 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:38:38,596 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:38:38,675 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:38:38,678 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 16:38:38,680 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:38:38,737 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:38:38,871 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:38:38,920 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 16:38:38,923 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:38:38,979 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-11 16:38:39,056 127.0.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-11 16:38:39,125 127.0.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 16:38:39,127 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:38:39,182 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-11 16:38:39,323 127.0.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-11 16:38:39,328 127.0.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 16:38:39,330 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:38:39,386 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:38:39,527 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:38:39,587 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:38:39,590 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:38:39,682 127.0.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:38:39,754 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:38:39,755 127.0.0.1 /dashboard Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 16:41:08,136 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:41:08,190 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:41:08,194 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:41:08,253 127.0.0.1 /transactions/upload Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:41:23,950 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:41:24,003 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:41:24,006 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:41:24,066 127.0.0.1 /transactions/upload Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:41:24,138 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:41:24,138 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 16:46:06,168 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:46:06,222 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:46:06,224 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:46:06,283 127.0.0.1 /transactions/upload Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:46:06,413 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:46:06,476 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 16:46:06,480 127.0.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 16:46:06,530 127.0.0.1 /transactions/upload Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:46:06,605 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:46:06,607 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 16:46:28,208 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:46:28,261 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:46:28,264 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:46:28,324 127.0.0.1 /transactions/upload Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:46:28,459 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:46:28,522 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 16:46:28,526 127.0.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 16:46:28,574 127.0.0.1 /transactions/upload Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:46:28,649 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:46:28,650 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 16:48:21,334 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:48:21,387 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:48:21,390 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:48:21,449 127.0.0.1 /transactions/upload Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:48:21,524 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:48:21,525 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 16:48:21,653 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:48:21,714 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 16:48:21,717 127.0.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 16:48:21,766 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 16:48:21,899 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:48:21,960 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 16:48:21,963 127.0.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 16:48:22,007 127.0.0.1 /transactions/upload Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:48:22,014 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:48:22,108 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:48:35,422 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:48:35,476 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:48:35,479 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:48:35,539 127.0.0.1 /transactions/upload Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:48:35,612 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:48:35,613 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 16:48:35,743 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:48:35,804 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 16:48:35,807 127.0.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 16:48:35,854 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 16:48:35,985 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:48:36,046 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 16:48:36,049 127.0.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 16:48:36,096 127.0.0.1 /transactions/upload Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:48:36,101 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:48:36,193 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:59:07,519 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:59:07,572 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:59:07,575 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:59:07,670 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:59:07,749 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:59:07,753 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 16:59:07,756 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:59:07,812 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:59:07,948 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:59:07,997 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 16:59:07,999 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:59:08,055 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-11 16:59:08,132 127.0.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-11 16:59:08,197 127.0.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 16:59:08,200 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:59:08,255 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-11 16:59:08,393 127.0.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-11 16:59:08,397 127.0.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 16:59:08,399 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:59:08,456 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 16:59:08,588 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:59:08,649 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:59:08,651 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:59:08,741 127.0.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:59:08,818 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:59:08,818 127.0.0.1 /dashboard Response Status Code: 302 
+GET [INFO] http://localhost/: 2022-05-11 16:59:09,104 127.0.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 16:59:09,157 127.0.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/: 2022-05-11 16:59:09,226 127.0.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 16:59:09,282 127.0.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/: 2022-05-11 16:59:09,715 127.0.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 16:59:09,771 127.0.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/: 2022-05-11 16:59:09,842 127.0.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 16:59:09,898 127.0.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/about: 2022-05-11 16:59:09,966 127.0.0.1 /about Logging Request 
+GET [INFO] http://localhost/about: 2022-05-11 16:59:10,020 127.0.0.1 /about Response Status Code: 200 
+GET [INFO] http://localhost/welcome: 2022-05-11 16:59:10,093 127.0.0.1 /welcome Logging Request 
+GET [INFO] http://localhost/welcome: 2022-05-11 16:59:10,149 127.0.0.1 /welcome Response Status Code: 200 
+GET [INFO] http://localhost/login: 2022-05-11 16:59:10,216 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 16:59:10,269 127.0.0.1 /login Response Status Code: 200 
+GET [INFO] http://localhost/register: 2022-05-11 16:59:10,340 127.0.0.1 /register Logging Request 
+GET [INFO] http://localhost/register: 2022-05-11 16:59:10,395 127.0.0.1 /register Response Status Code: 200 
+GET [INFO] http://localhost/page5: 2022-05-11 16:59:10,466 127.0.0.1 /page5 Logging Request 
+GET [INFO] http://localhost/page5: 2022-05-11 16:59:10,466 127.0.0.1 /page5 Response Status Code: 404 
+POST [INFO] http://localhost/login: 2022-05-11 16:59:10,595 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:59:10,656 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:59:10,659 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:59:10,715 127.0.0.1 /transactions/upload Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:59:10,787 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 16:59:10,788 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 16:59:10,912 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:59:10,973 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 16:59:10,976 127.0.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 16:59:11,029 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 16:59:11,165 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 16:59:11,225 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 16:59:11,229 127.0.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 16:59:11,277 127.0.0.1 /transactions/upload Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:59:11,283 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 16:59:11,373 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 17:31:14,260 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 17:31:14,313 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 17:31:14,316 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 17:31:14,412 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 17:31:14,493 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 17:31:14,497 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 17:31:14,499 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 17:31:14,557 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 17:31:14,694 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 17:31:14,743 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 17:31:14,746 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 17:31:14,803 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-11 17:31:14,880 127.0.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-11 17:31:14,948 127.0.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 17:31:14,950 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 17:31:15,007 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-11 17:31:15,149 127.0.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-11 17:31:15,154 127.0.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 17:31:15,156 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 17:31:15,211 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 17:31:15,347 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 17:31:15,407 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 17:31:15,409 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 17:31:15,502 127.0.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 17:31:15,576 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 17:31:15,577 127.0.0.1 /dashboard Response Status Code: 302 
+GET [INFO] http://localhost/: 2022-05-11 17:31:15,823 127.0.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 17:31:15,879 127.0.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/: 2022-05-11 17:31:15,948 127.0.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 17:31:16,004 127.0.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/: 2022-05-11 17:31:16,483 127.0.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 17:31:16,538 127.0.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/: 2022-05-11 17:31:16,609 127.0.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 17:31:16,665 127.0.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/about: 2022-05-11 17:31:16,734 127.0.0.1 /about Logging Request 
+GET [INFO] http://localhost/about: 2022-05-11 17:31:16,789 127.0.0.1 /about Response Status Code: 200 
+GET [INFO] http://localhost/welcome: 2022-05-11 17:31:16,857 127.0.0.1 /welcome Logging Request 
+GET [INFO] http://localhost/welcome: 2022-05-11 17:31:16,912 127.0.0.1 /welcome Response Status Code: 200 
+GET [INFO] http://localhost/login: 2022-05-11 17:31:16,984 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 17:31:17,038 127.0.0.1 /login Response Status Code: 200 
+GET [INFO] http://localhost/register: 2022-05-11 17:31:17,121 127.0.0.1 /register Logging Request 
+GET [INFO] http://localhost/register: 2022-05-11 17:31:17,182 127.0.0.1 /register Response Status Code: 200 
+GET [INFO] http://localhost/page5: 2022-05-11 17:31:17,267 127.0.0.1 /page5 Logging Request 
+GET [INFO] http://localhost/page5: 2022-05-11 17:31:17,268 127.0.0.1 /page5 Response Status Code: 404 
+POST [INFO] http://localhost/login: 2022-05-11 17:31:17,441 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 17:31:17,501 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 17:31:17,503 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 17:31:17,560 127.0.0.1 /transactions/upload Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 17:31:17,632 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 17:31:17,633 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 17:31:17,758 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 17:31:17,817 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 17:31:17,821 127.0.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 17:31:17,867 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 17:31:17,996 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 17:31:18,058 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 17:31:18,061 127.0.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 17:31:18,107 127.0.0.1 /transactions/upload Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 17:31:18,114 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 17:31:18,205 127.0.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/login: 2022-05-11 20:51:04,530 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 20:51:04,595 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 20:51:17,776 172.19.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 20:51:17,819 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 20:51:17,837 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 20:51:17,840 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 20:51:29,703 172.19.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 20:51:29,739 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 20:51:29,760 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 20:51:29,764 172.19.0.1 /login Response Status Code: 200 
+GET [INFO] http://localhost/register: 2022-05-11 20:51:31,722 172.19.0.1 /register Logging Request 
+GET [INFO] http://localhost/register: 2022-05-11 20:51:31,754 172.19.0.1 /register Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-11 20:51:41,897 172.19.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-11 20:51:42,060 172.19.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 20:51:42,071 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 20:51:42,073 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 20:51:48,883 172.19.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 20:51:48,927 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 20:51:48,946 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 20:51:48,950 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 20:51:56,711 172.19.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 20:51:56,847 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 20:51:56,862 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 20:51:56,922 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 20:52:00,817 172.19.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 20:52:00,870 172.19.0.1 /transactions/upload Response Status Code: 200 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 20:52:20,970 172.19.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 20:52:21,124 172.19.0.1 /transactions/upload Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 20:52:21,138 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 20:52:21,162 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/profile: 2022-05-11 20:52:44,351 172.19.0.1 /profile Logging Request 
+GET [INFO] http://localhost/profile: 2022-05-11 20:52:44,400 172.19.0.1 /profile Response Status Code: 200 
+GET [INFO] http://localhost/profile: 2022-05-11 20:53:40,093 172.19.0.1 /profile Logging Request 
+GET [INFO] http://localhost/profile: 2022-05-11 20:53:40,125 172.19.0.1 /profile Response Status Code: 200 
+POST [INFO] http://localhost/profile: 2022-05-11 21:01:06,653 172.19.0.1 /profile Logging Request 
+POST [INFO] http://localhost/profile: 2022-05-11 21:01:06,692 172.19.0.1 /profile Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:01:06,703 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:01:06,813 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/account: 2022-05-11 21:03:57,203 172.19.0.1 /account Logging Request 
+GET [INFO] http://localhost/account: 2022-05-11 21:03:57,280 172.19.0.1 /account Response Status Code: 200 
+GET [INFO] http://localhost/account: 2022-05-11 21:05:10,928 172.19.0.1 /account Logging Request 
+GET [INFO] http://localhost/account: 2022-05-11 21:05:11,005 172.19.0.1 /account Response Status Code: 200 
+POST [INFO] http://localhost/profile: 2022-05-11 21:08:39,047 127.0.0.1 /profile Logging Request 
+POST [INFO] http://localhost/profile: 2022-05-11 21:08:39,048 127.0.0.1 /profile Response Status Code: 302 
+GET [INFO] http://localhost/login?next=%2Fprofile: 2022-05-11 21:08:39,051 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login?next=%2Fprofile: 2022-05-11 21:08:39,113 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:11:17,874 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:11:17,928 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/profile: 2022-05-11 21:11:17,931 127.0.0.1 /profile Logging Request 
+POST [INFO] http://localhost/profile: 2022-05-11 21:11:17,938 127.0.0.1 /profile Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:11:17,940 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:11:18,043 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:12:16,264 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:12:16,317 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/profile: 2022-05-11 21:12:16,319 127.0.0.1 /profile Logging Request 
+POST [INFO] http://localhost/profile: 2022-05-11 21:12:16,327 127.0.0.1 /profile Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:12:16,329 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:12:16,429 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:22:05,471 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:22:05,524 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/profile: 2022-05-11 21:22:05,527 127.0.0.1 /profile Logging Request 
+POST [INFO] http://localhost/profile: 2022-05-11 21:22:05,535 127.0.0.1 /profile Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:22:05,538 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:22:05,639 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:22:05,775 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:22:05,835 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/account: 2022-05-11 21:22:05,882 127.0.0.1 /account Logging Request 
+POST [INFO] http://localhost/account: 2022-05-11 21:22:05,941 127.0.0.1 /account Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:22:44,272 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:22:44,325 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/profile: 2022-05-11 21:22:44,328 127.0.0.1 /profile Logging Request 
+POST [INFO] http://localhost/profile: 2022-05-11 21:22:44,336 127.0.0.1 /profile Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:22:44,338 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:22:44,436 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:22:44,572 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:22:44,636 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/account: 2022-05-11 21:22:44,683 127.0.0.1 /account Logging Request 
+POST [INFO] http://localhost/account: 2022-05-11 21:22:44,690 127.0.0.1 /account Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:22:44,693 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:22:44,791 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:24:51,708 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:24:51,761 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/profile: 2022-05-11 21:24:51,765 127.0.0.1 /profile Logging Request 
+POST [INFO] http://localhost/profile: 2022-05-11 21:24:51,772 127.0.0.1 /profile Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:24:51,774 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:24:51,873 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:24:52,009 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:24:52,071 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/account: 2022-05-11 21:24:52,119 127.0.0.1 /account Logging Request 
+POST [INFO] http://localhost/account: 2022-05-11 21:24:52,172 127.0.0.1 /account Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:24:52,175 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:24:52,274 127.0.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/account: 2022-05-11 21:25:23,642 172.19.0.1 /account Logging Request 
+GET [INFO] http://localhost/account: 2022-05-11 21:25:23,725 172.19.0.1 /account Response Status Code: 200 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:25:28,259 172.19.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:25:28,359 172.19.0.1 /transactions Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:30:40,626 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:30:40,679 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/profile: 2022-05-11 21:30:40,682 127.0.0.1 /profile Logging Request 
+POST [INFO] http://localhost/profile: 2022-05-11 21:30:40,689 127.0.0.1 /profile Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:30:40,691 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:30:40,796 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:30:40,932 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:30:40,994 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/account: 2022-05-11 21:30:41,041 127.0.0.1 /account Logging Request 
+POST [INFO] http://localhost/account: 2022-05-11 21:30:41,092 127.0.0.1 /account Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:30:41,096 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:30:41,194 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:30:41,375 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:30:41,435 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:30:41,437 127.0.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:30:41,496 127.0.0.1 /transactions Response Status Code: 403 
+POST [INFO] http://localhost/login: 2022-05-11 21:31:31,442 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:31:31,495 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/profile: 2022-05-11 21:31:31,499 127.0.0.1 /profile Logging Request 
+POST [INFO] http://localhost/profile: 2022-05-11 21:31:31,505 127.0.0.1 /profile Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:31:31,507 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:31:31,607 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:31:31,742 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:31:31,802 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/account: 2022-05-11 21:31:31,848 127.0.0.1 /account Logging Request 
+POST [INFO] http://localhost/account: 2022-05-11 21:31:31,900 127.0.0.1 /account Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:31:31,903 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:31:32,003 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:31:32,185 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:31:32,245 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:31:32,248 127.0.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:31:32,303 127.0.0.1 /transactions Response Status Code: 403 
+POST [INFO] http://localhost/login: 2022-05-11 21:32:32,352 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:32:32,406 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/profile: 2022-05-11 21:32:32,409 127.0.0.1 /profile Logging Request 
+POST [INFO] http://localhost/profile: 2022-05-11 21:32:32,416 127.0.0.1 /profile Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:32:32,418 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:32:32,521 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:32:32,664 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:32:32,724 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/account: 2022-05-11 21:32:32,771 127.0.0.1 /account Logging Request 
+POST [INFO] http://localhost/account: 2022-05-11 21:32:32,825 127.0.0.1 /account Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:32:32,828 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:32:32,926 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:32:33,108 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:32:33,168 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:32:33,170 127.0.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:32:33,226 127.0.0.1 /transactions Response Status Code: 403 
+POST [INFO] http://localhost/login: 2022-05-11 21:33:38,814 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:33:38,868 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/profile: 2022-05-11 21:33:38,871 127.0.0.1 /profile Logging Request 
+POST [INFO] http://localhost/profile: 2022-05-11 21:33:38,878 127.0.0.1 /profile Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:33:38,880 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:33:38,979 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:33:39,112 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:33:39,174 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/account: 2022-05-11 21:33:39,221 127.0.0.1 /account Logging Request 
+POST [INFO] http://localhost/account: 2022-05-11 21:33:39,273 127.0.0.1 /account Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:33:39,276 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:33:39,374 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:33:39,555 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:33:39,619 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:33:39,621 127.0.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:33:39,711 127.0.0.1 /transactions Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:36:55,599 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:36:55,653 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/profile: 2022-05-11 21:36:55,655 127.0.0.1 /profile Logging Request 
+POST [INFO] http://localhost/profile: 2022-05-11 21:36:55,662 127.0.0.1 /profile Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:36:55,664 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:36:55,761 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:36:55,899 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:36:55,961 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/account: 2022-05-11 21:36:56,008 127.0.0.1 /account Logging Request 
+POST [INFO] http://localhost/account: 2022-05-11 21:36:56,059 127.0.0.1 /account Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:36:56,062 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:36:56,158 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:36:56,345 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:36:56,406 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:36:56,409 127.0.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:36:56,462 127.0.0.1 /transactions Response Status Code: 403 
+POST [INFO] http://localhost/login: 2022-05-11 21:36:56,597 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:36:56,665 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:36:56,667 127.0.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:36:56,755 127.0.0.1 /transactions Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:01,659 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:01,712 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/profile: 2022-05-11 21:41:01,715 127.0.0.1 /profile Logging Request 
+POST [INFO] http://localhost/profile: 2022-05-11 21:41:01,722 127.0.0.1 /profile Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:41:01,725 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:41:01,822 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:01,953 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:02,014 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/account: 2022-05-11 21:41:02,065 127.0.0.1 /account Logging Request 
+POST [INFO] http://localhost/account: 2022-05-11 21:41:02,119 127.0.0.1 /account Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:41:02,121 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:41:02,219 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:02,400 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:02,460 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:41:02,462 127.0.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:41:02,516 127.0.0.1 /transactions Response Status Code: 403 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:02,653 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:02,718 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:41:02,721 127.0.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:41:02,812 127.0.0.1 /transactions Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:02,948 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:03,008 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/logout: 2022-05-11 21:41:03,010 127.0.0.1 /logout Logging Request 
+GET [INFO] http://localhost/logout: 2022-05-11 21:41:03,016 127.0.0.1 /logout Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:38,557 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:38,613 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/profile: 2022-05-11 21:41:38,615 127.0.0.1 /profile Logging Request 
+POST [INFO] http://localhost/profile: 2022-05-11 21:41:38,622 127.0.0.1 /profile Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:41:38,624 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:41:38,726 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:38,860 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:38,921 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/account: 2022-05-11 21:41:38,969 127.0.0.1 /account Logging Request 
+POST [INFO] http://localhost/account: 2022-05-11 21:41:39,023 127.0.0.1 /account Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:41:39,026 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:41:39,123 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:39,304 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:39,365 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:41:39,367 127.0.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:41:39,422 127.0.0.1 /transactions Response Status Code: 403 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:39,556 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:39,618 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:41:39,620 127.0.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:41:39,715 127.0.0.1 /transactions Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:39,852 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:41:39,913 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 21:42:53,841 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:42:53,893 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/profile: 2022-05-11 21:42:53,896 127.0.0.1 /profile Logging Request 
+POST [INFO] http://localhost/profile: 2022-05-11 21:42:53,903 127.0.0.1 /profile Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:42:53,906 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:42:54,004 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:42:54,141 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:42:54,203 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/account: 2022-05-11 21:42:54,251 127.0.0.1 /account Logging Request 
+POST [INFO] http://localhost/account: 2022-05-11 21:42:54,303 127.0.0.1 /account Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:42:54,306 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:42:54,406 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:42:54,589 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:42:54,650 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:42:54,652 127.0.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:42:54,707 127.0.0.1 /transactions Response Status Code: 403 
+POST [INFO] http://localhost/login: 2022-05-11 21:42:54,844 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:42:54,911 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:42:54,913 127.0.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:42:55,003 127.0.0.1 /transactions Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:42:55,136 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:42:55,197 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/logout: 2022-05-11 21:42:55,199 127.0.0.1 /logout Logging Request 
+GET [INFO] http://localhost/logout: 2022-05-11 21:42:55,206 127.0.0.1 /logout Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:48,752 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:48,807 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/profile: 2022-05-11 21:43:48,810 127.0.0.1 /profile Logging Request 
+POST [INFO] http://localhost/profile: 2022-05-11 21:43:48,817 127.0.0.1 /profile Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:43:48,819 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:43:48,921 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:49,055 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:49,116 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/account: 2022-05-11 21:43:49,163 127.0.0.1 /account Logging Request 
+POST [INFO] http://localhost/account: 2022-05-11 21:43:49,218 127.0.0.1 /account Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:43:49,220 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:43:49,319 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:49,501 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:49,562 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:43:49,565 127.0.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:43:49,619 127.0.0.1 /transactions Response Status Code: 403 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:49,752 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:49,815 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:43:49,817 127.0.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:43:49,909 127.0.0.1 /transactions Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:50,045 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:50,106 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/logout: 2022-05-11 21:43:50,108 127.0.0.1 /logout Logging Request 
+GET [INFO] http://localhost/logout: 2022-05-11 21:43:50,114 127.0.0.1 /logout Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:50,242 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:50,305 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:43:50,307 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:43:50,400 127.0.0.1 /dashboard Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:50,478 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:50,481 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 21:43:50,483 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 21:43:50,539 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:50,682 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:50,731 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 21:43:50,733 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 21:43:50,790 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-11 21:43:50,871 127.0.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-11 21:43:50,938 127.0.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 21:43:50,940 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 21:43:50,995 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-11 21:43:51,136 127.0.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-11 21:43:51,140 127.0.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 21:43:51,142 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 21:43:51,198 127.0.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:51,332 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:51,393 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:43:51,395 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:43:51,488 127.0.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:43:51,562 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:43:51,562 127.0.0.1 /dashboard Response Status Code: 302 
+GET [INFO] http://localhost/: 2022-05-11 21:43:51,822 127.0.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 21:43:51,920 127.0.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/: 2022-05-11 21:43:51,991 127.0.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 21:43:52,048 127.0.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/: 2022-05-11 21:43:52,511 127.0.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 21:43:52,568 127.0.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/: 2022-05-11 21:43:52,637 127.0.0.1 / Logging Request 
+GET [INFO] http://localhost/: 2022-05-11 21:43:52,692 127.0.0.1 / Response Status Code: 200 
+GET [INFO] http://localhost/about: 2022-05-11 21:43:52,762 127.0.0.1 /about Logging Request 
+GET [INFO] http://localhost/about: 2022-05-11 21:43:52,818 127.0.0.1 /about Response Status Code: 200 
+GET [INFO] http://localhost/welcome: 2022-05-11 21:43:52,888 127.0.0.1 /welcome Logging Request 
+GET [INFO] http://localhost/welcome: 2022-05-11 21:43:52,945 127.0.0.1 /welcome Response Status Code: 200 
+GET [INFO] http://localhost/login: 2022-05-11 21:43:53,010 127.0.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 21:43:53,064 127.0.0.1 /login Response Status Code: 200 
+GET [INFO] http://localhost/register: 2022-05-11 21:43:53,137 127.0.0.1 /register Logging Request 
+GET [INFO] http://localhost/register: 2022-05-11 21:43:53,194 127.0.0.1 /register Response Status Code: 200 
+GET [INFO] http://localhost/page5: 2022-05-11 21:43:53,266 127.0.0.1 /page5 Logging Request 
+GET [INFO] http://localhost/page5: 2022-05-11 21:43:53,267 127.0.0.1 /page5 Response Status Code: 404 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:53,398 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:53,460 127.0.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 21:43:53,463 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 21:43:53,522 127.0.0.1 /transactions/upload Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 21:43:53,596 127.0.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 21:43:53,597 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:53,722 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:53,784 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 21:43:53,787 127.0.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 21:43:53,836 127.0.0.1 /transactions/upload Response Status Code: 302 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:53,970 127.0.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:43:54,032 127.0.0.1 /login Response Status Code: 302 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 21:43:54,036 127.0.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 21:43:54,084 127.0.0.1 /transactions/upload Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:43:54,090 127.0.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:43:54,184 127.0.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:55:42,193 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:55:42,205 172.19.0.1 /dashboard Response Status Code: 302 
+GET [INFO] http://localhost/login?next=%2Fdashboard&page=1: 2022-05-11 21:55:42,218 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login?next=%2Fdashboard&page=1: 2022-05-11 21:55:42,292 172.19.0.1 /login Response Status Code: 200 
+GET [INFO] http://localhost/register: 2022-05-11 21:55:45,270 172.19.0.1 /register Logging Request 
+GET [INFO] http://localhost/register: 2022-05-11 21:55:45,319 172.19.0.1 /register Response Status Code: 200 
+GET [INFO] http://localhost/login: 2022-05-11 21:55:46,656 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 21:55:46,694 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:55:59,538 172.19.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:55:59,587 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 21:55:59,603 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 21:55:59,616 172.19.0.1 /login Response Status Code: 200 
+GET [INFO] http://localhost/register: 2022-05-11 21:56:02,226 172.19.0.1 /register Logging Request 
+GET [INFO] http://localhost/register: 2022-05-11 21:56:02,264 172.19.0.1 /register Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-11 21:56:15,949 172.19.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-11 21:56:16,120 172.19.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 21:56:16,131 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 21:56:16,143 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:56:16,196 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:56:16,256 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 21:56:19,084 172.19.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 21:56:19,138 172.19.0.1 /transactions/upload Response Status Code: 200 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 21:56:33,805 172.19.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 21:56:34,188 172.19.0.1 /transactions/upload Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:56:34,201 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:56:34,226 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/logout: 2022-05-11 21:56:53,133 172.19.0.1 /logout Logging Request 
+GET [INFO] http://localhost/logout: 2022-05-11 21:56:53,177 172.19.0.1 /logout Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 21:56:53,190 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 21:56:53,195 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:57:01,333 172.19.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:57:01,470 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:57:01,483 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:57:01,507 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/logout: 2022-05-11 21:57:05,860 172.19.0.1 /logout Logging Request 
+GET [INFO] http://localhost/logout: 2022-05-11 21:57:05,927 172.19.0.1 /logout Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 21:57:05,936 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 21:57:05,939 172.19.0.1 /login Response Status Code: 200 
+GET [INFO] http://localhost/register: 2022-05-11 21:57:18,487 172.19.0.1 /register Logging Request 
+GET [INFO] http://localhost/register: 2022-05-11 21:57:18,497 172.19.0.1 /register Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-11 21:57:31,968 172.19.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-11 21:57:32,115 172.19.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 21:57:32,129 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 21:57:32,132 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:57:40,412 172.19.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:57:40,470 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 21:57:40,484 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 21:57:40,487 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:57:47,486 172.19.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:57:47,622 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:57:47,637 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:57:47,663 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 21:57:49,625 172.19.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 21:57:49,664 172.19.0.1 /transactions/upload Response Status Code: 200 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 21:57:54,351 172.19.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 21:57:55,404 172.19.0.1 /transactions/upload Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:57:55,419 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:57:55,445 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/dashboard/2: 2022-05-11 21:57:57,914 172.19.0.1 /dashboard/2 Logging Request 
+GET [INFO] http://localhost/dashboard/2: 2022-05-11 21:57:57,981 172.19.0.1 /dashboard/2 Response Status Code: 200 
+GET [INFO] http://localhost/dashboard/3: 2022-05-11 21:57:58,690 172.19.0.1 /dashboard/3 Logging Request 
+GET [INFO] http://localhost/dashboard/3: 2022-05-11 21:57:58,757 172.19.0.1 /dashboard/3 Response Status Code: 200 
+GET [INFO] http://localhost/logout: 2022-05-11 21:58:02,613 172.19.0.1 /logout Logging Request 
+GET [INFO] http://localhost/logout: 2022-05-11 21:58:02,682 172.19.0.1 /logout Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 21:58:02,692 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 21:58:02,695 172.19.0.1 /login Response Status Code: 200 
+GET [INFO] http://localhost/register: 2022-05-11 21:58:04,274 172.19.0.1 /register Logging Request 
+GET [INFO] http://localhost/register: 2022-05-11 21:58:04,280 172.19.0.1 /register Response Status Code: 200 
+POST [INFO] http://localhost/register: 2022-05-11 21:58:16,482 172.19.0.1 /register Logging Request 
+POST [INFO] http://localhost/register: 2022-05-11 21:58:16,626 172.19.0.1 /register Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 21:58:16,640 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 21:58:16,642 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:58:25,438 172.19.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:58:25,577 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:58:25,591 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:58:25,615 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 21:58:27,264 172.19.0.1 /transactions/upload Logging Request 
+GET [INFO] http://localhost/transactions/upload: 2022-05-11 21:58:27,301 172.19.0.1 /transactions/upload Response Status Code: 200 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 21:58:31,552 172.19.0.1 /transactions/upload Logging Request 
+POST [INFO] http://localhost/transactions/upload: 2022-05-11 21:58:31,930 172.19.0.1 /transactions/upload Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:58:31,942 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:58:31,965 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/logout: 2022-05-11 21:58:34,575 172.19.0.1 /logout Logging Request 
+GET [INFO] http://localhost/logout: 2022-05-11 21:58:34,647 172.19.0.1 /logout Response Status Code: 302 
+GET [INFO] http://localhost/login: 2022-05-11 21:58:34,658 172.19.0.1 /login Logging Request 
+GET [INFO] http://localhost/login: 2022-05-11 21:58:34,660 172.19.0.1 /login Response Status Code: 200 
+POST [INFO] http://localhost/login: 2022-05-11 21:58:43,431 172.19.0.1 /login Logging Request 
+POST [INFO] http://localhost/login: 2022-05-11 21:58:43,569 172.19.0.1 /login Response Status Code: 302 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:58:43,583 172.19.0.1 /dashboard Logging Request 
+GET [INFO] http://localhost/dashboard: 2022-05-11 21:58:43,610 172.19.0.1 /dashboard Response Status Code: 200 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:58:47,182 172.19.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:58:47,252 172.19.0.1 /transactions Response Status Code: 200 
+GET [INFO] http://localhost/transactions/2: 2022-05-11 21:58:49,639 172.19.0.1 /transactions/2 Logging Request 
+GET [INFO] http://localhost/transactions/2: 2022-05-11 21:58:49,698 172.19.0.1 /transactions/2 Response Status Code: 200 
+GET [INFO] http://localhost/transactions/3: 2022-05-11 21:58:50,466 172.19.0.1 /transactions/3 Logging Request 
+GET [INFO] http://localhost/transactions/3: 2022-05-11 21:58:50,525 172.19.0.1 /transactions/3 Response Status Code: 200 
+GET [INFO] http://localhost/transactions/4: 2022-05-11 21:58:51,103 172.19.0.1 /transactions/4 Logging Request 
+GET [INFO] http://localhost/transactions/4: 2022-05-11 21:58:51,160 172.19.0.1 /transactions/4 Response Status Code: 200 
+GET [INFO] http://localhost/transactions/3: 2022-05-11 21:58:53,283 172.19.0.1 /transactions/3 Logging Request 
+GET [INFO] http://localhost/transactions/3: 2022-05-11 21:58:53,340 172.19.0.1 /transactions/3 Response Status Code: 200 
+GET [INFO] http://localhost/transactions/2: 2022-05-11 21:58:54,892 172.19.0.1 /transactions/2 Logging Request 
+GET [INFO] http://localhost/transactions/2: 2022-05-11 21:58:54,950 172.19.0.1 /transactions/2 Response Status Code: 200 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:58:56,188 172.19.0.1 /transactions Logging Request 
+GET [INFO] http://localhost/transactions: 2022-05-11 21:58:56,242 172.19.0.1 /transactions Response Status Code: 200 
