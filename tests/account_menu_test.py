@@ -3,6 +3,7 @@
 from app import db
 from app.db.models import User
 from werkzeug.security import check_password_hash
+from flask_login import current_user
 
 
 def test_request_manage_profile(client, add_user):
@@ -54,6 +55,19 @@ def test_request_browse_transactions(client, add_user):
         response = client.get('/transactions')
         assert response.status_code == 200
         assert b'Browse: All Transactions' in response.data
+
+
+def test_request_logout(client, add_user):
+    """This makes the logout page"""
+    with client:
+        assert db.session.query(User).count() == 1
+        user = User.query.get(1)
+        client.post('/login', data={'email': user.email, 'password': 'prem@1234'})
+
+        assert user.authenticated
+        assert current_user.email == user.email
+        client.get('/logout')
+        assert current_user.is_anonymous
 
 
 
