@@ -86,7 +86,7 @@ LOGGING_CONFIG = {
         'file.handler.werkzeug': {
             'class': 'logging.handlers.RotatingFileHandler',
             'formatter': 'werkzeug_standard',
-            'filename': os.path.join(config.Config.LOG_DIR,' werkzeug.log'),
+            'filename': os.path.join(config.Config.LOG_DIR, 'werkzeug.log'),
             'maxBytes': 10000000,
             'backupCount': 5,
         },

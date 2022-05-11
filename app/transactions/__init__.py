@@ -1,6 +1,7 @@
 import csv
 import os
 import logging
+from datetime import datetime as dt
 
 from flask import Blueprint, render_template, abort, url_for,current_app
 from flask_login import current_user, login_required
@@ -50,7 +51,9 @@ def transactions_upload():
             for row in csv_file:
                 current_user.transactions.append(Transaction(abs(int(row['AMOUNT'])), row['TYPE']))
                 db.session.commit()
-        mytransaction.info(f'CSV uploaded by user {current_user.email}')
+        current_time = dt.utcnow().strftime('%Y-%m-%d %H:%M:%S')
+        mytransaction.info(f'File {filename} uploaded by user {current_user.email} at time {current_time}')
+
         return redirect(url_for('auth.dashboard'))
 
     try:

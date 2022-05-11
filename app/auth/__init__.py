@@ -195,7 +195,7 @@ def edit_account():
     form = password_update_form(obj=user)
     if form.validate_on_submit():
         user.email = form.email.data
-        user.password = form.password.data
+        user.password = generate_password_hash(form.password.data)
         db.session.add(current_user)
         db.session.commit()
         flash('You Successfully Updated your Password or Email', 'success')
