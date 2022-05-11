@@ -33,6 +33,28 @@ def test_request_manage_account(client, add_user):
         assert check_password_hash(user.password, new_password)
 
 
+def test_request_browse_transactions_non_admin(client, add_user):
+    """This makes the browse transaction page - requested by non admin user"""
+    with client:
+        assert db.session.query(User).count() == 1
+        user = User.query.get(1)
+        assert not user.is_admin
+        client.post('/login', data={'email': user.email, 'password': 'prem@1234'})
+        response = client.get('/transactions')
+        assert response.status_code == 403
+
+
+def test_request_browse_transactions(client, add_user):
+    """This makes the browse transaction page"""
+    with client:
+        assert db.session.query(User).count() == 1
+        user = User.query.get(1)
+        user.is_admin = True
+        client.post('/login', data={'email': user.email, 'password': 'prem@1234'})
+        response = client.get('/transactions')
+        assert response.status_code == 200
+        assert b'Browse: All Transactions' in response.data
+
 
 
 
