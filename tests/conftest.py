@@ -3,6 +3,7 @@
 
 import pytest
 from app import create_app, User
+from werkzeug.security import generate_password_hash
 import os
 import logging
 from app.db import db
@@ -30,3 +31,11 @@ def client(application):
 def runner(application):
     """This makes the task runner"""
     return application.test_cli_runner()
+
+@pytest.fixture()
+def add_user(application):
+    with application.app_context():
+        user = User('prem@gmail.com', generate_password_hash('prem@1234'))
+        db.session.add(user)
+        db.session.commit()
+
